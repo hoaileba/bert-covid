@@ -1,0 +1,53 @@
+/* body {background: #F0F0F0;} */
+
+
+h1 {margin-left: 55px;}
+
+textarea {
+    /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 400px;
+  /* -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none; */
+  /* background: rgba(245, 241, 241, 0.897) ;
+  border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color; */
+  /* border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset; */
+  color: #000000;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  /* padding: 5px 8px;
+  opacity: 0.1; */
+  /* transition: background-color 0.2s ease 0s; */
+}
+input{
+    /* position: fixed; */
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+    width: 80%;
+    height: 50px;
+    z-index: 99;
+    background: #fafafa;
+    border: none;
+    outline: none;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #666;
+    font-weight: 400;
+}
+
+textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+}

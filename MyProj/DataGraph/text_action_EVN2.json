@@ -1,0 +1,76 @@
+{
+    
+    "action_ask_province":
+        ["28. Xin chào, đây là tổng đài tra cứu tiền điện. Xin hỏi quý khách thuộc tỉnh thành nào vậy?",
+            "28. Kính chào quý Khách, đây là tổng đài tra cứu tiền điện. Cho em xin tên tỉnh thành hiện tại của qúy khách ạ"]
+    ,"action_ask_province_again":
+        ["29. Quý khách vui lòng đọc lại tên tỉnh thành chính xác giúp em",
+            "29. Xin lỗi Quý khách có thể đọc lại tên tỉnh thành giúp em với ạ."]
+    ,"action_sorry_call_sup":
+        ["30. Xin lỗi em chưa rõ tỉnh thành. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ.",
+            "30. Xin lỗi em vẫn không rõ tỉnh thành ạ. Cuộc gọi của mình đang được chuyển cho điện thoại viên hỗ trợ ạ, vui lòng đợi trong giây lát "]
+    ,"action_not_support":
+        ["31. Rất xin lỗi, hiện tại điện lực chưa hỗ trợ tra cứu cho khách hàng thuộc tỉnh {province}. Tạm biệt quý khách."]
+    ,"action_ask_search_method":
+        ["1. Đầu tiên, quý khách muốn tra cứu theo mã khách hàng, theo số điện thoại hay theo địa chỉ vậy?",
+            "1. Quý khách muốn tra cứu theo hình thức nào ạ, mã khách hàng, số điện thoại hay địa chỉ ạ",
+            "1.  Quý khách muốn tra cứu theo {method_1}, hay theo {method_2} ạ"]
+    ,"action_ask_method":
+        ["Xin lỗi, bạn muốn tra cứu theo mã khách hàng theo số điện thoại hay theo địa chỉ vậy ạ ?",
+            "mình xin lỗi, bạn muốn tra theo mã khách hàng hay số điện thoại hay địa chỉ ạ"]
+    ,"action_ask_address_contract":
+        ["6. Quý khách vui lòng đọc địa chỉ trên hợp đồng điện giúp em",
+            "6. Quý khách có thể đọc địa chỉ trên hợp đồng không ạ"]
+    ,"action_ask_ID":
+        ["12. Quý khách vui lòng đọc mã khách hàng để em tra cứu",
+            "12.Quý khách vui lòng cho em xin thông tin về mã khách hàng là gì ạ"]
+    ,"action_ask_number":
+        ["23. Quý khách vui lòng đọc số điện thoại trên hợp đồng điện để em tra cứu",
+            "23. Cho phép em xin số điện thoại của quý khách ạ "]
+    ,"action_confirm_number":
+        ["24. Em xin xác nhận số điện thoại {phone_number} có phải không",
+            "24. Em xin xác nhận số điện thoại của mình có phải là {phone_number} không ạ" ]
+    ,"action_ask_number_again":
+        ["25. Vậy quý khách đọc lại số điện thoại trên hợp đồng điện giúp em",
+            "25. Vậy quý khách vui lòng cấp lại số điện thoại trên hợp đồng giúp em với ạ"]
+    ,"action_please_wait":
+        ["Hệ thống đang thực hiện tra cứu, quý khách vui lòng đợi giấy lát"]
+    ,"action_confirm_number_again":
+        ["26. Em xin xác nhận số điện thoại {phone_number} có phải không",
+            "26. Em xin xác nhận lại số điện thoại của mình là {phone_number} phải không ạ"]
+    ,"action_seach_again":
+        ["Dạ rất tiếc là em chưa rõ yêu cầu của quý khách. Quý khách có muốn tra cứu lại theo {method_1}, hay theo {method_2} không ạ.",
+            "Dạ em xin lỗi, em chưa chưa rõ yêu cầu của quý khách. Mình có muốn tra cứu lại bằng {method_1} hoặc theo {method_2} không ạ"]
+    ,"action_confirm_ID":
+        ["13. Em xin xác nhận mã khách hàng {code} phải không vậy"]
+    ,"action_ask_ID_again":
+        ["14. Vậy quý khách đọc lại mã khách hàng chính xác giúp em"]
+    ,"action_confirm_ID_again":
+        ["15. Em xin xác nhận mã khách hàng {code} phải không vậy"]
+    ,"action_confirm_address":
+        ["8. Em xin xác nhận địa chỉ {address} đúng không vậy"]
+    ,"action_confirm_address_again":
+        ["10. Em xin xác nhận địa chỉ {address} đúng không vậy"]
+    ,"action_ask_name":
+        ["2. Quý khách vui lòng đọc họ tên đầy đủ trên hợp đồng điện"]
+    ,"action_ask_address_again":
+        ["9. Vậy quý khách đọc lại địa chỉ trên hợp đồng điện giúp em"]
+    ,"action_confirm_name":
+        ["3. Em xin xác nhận tên quý khách là {name} phải không vậy"]
+    ,"action_ask_name_again":
+        ["4. Vậy quý khách đọc lại họ tên trên hợp đồng điện chính xác giúp em"]
+    ,"action_confirm_name_again":
+        ["5. Em xin xác nhận tên quý khách là {name} phải không vậy"],
+    "action_sorry_call_sup_27": 
+        ["27. Xin lỗi em chưa rõ thông tin của quý khách. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ."]
+    ,"action_sorry_17":
+        ["17. Rất tiếc hiện tại chưa có thông tin tiền điện. Điện lực sẽ kiểm tra và phản hồi lại sau một ngày làm việc."]
+    ,"action_sorry_18":
+        ["18. Rất tiếc hiện tại vẫn chưa đến ngày phát hành hóa đơn, quý khách vui lòng gọi lại sau."]
+    ,"action_sorry_20": 
+        ["20. Em rất tiếc không tìm thấy thông tin tiền điện của quý khách. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ."]
+    , "action_respone_19":
+        ["19. Em xin thông báo, tiền điện của quý khách trong tháng {month} năm {year} là {cost} đồng."]
+    ,"action_fallback_22" : 
+        ["Xin lỗi em chưa rõ, vui lòng chờ trong giây lát, cuộc gọi đang được chuyển hướng đến điện thoại viên"]
+}

@@ -1,0 +1,20 @@
+{   
+    
+    
+    "action_ask_distric_name": "Xin chào quý khách, đây là tổng đài tự động của EVN {provide_name}. Xin hỏi anh chị báo mất điện ở khu vực quận, huyện nào vậy.",
+    "action_sorry":"Dạ Rất xin lỗi anh chị, em chưa hiểu được phản hồi của anh chị. Nên em sẽ chuyển máy cho điện thoại viên để hỗ trợ anh chị. Anh chị vui lòng đợi trong giây lát.", 
+    "action_ask_homeORfield" : "Anh chị vui lòng cho em biết là, tình trạng mất điện chỉ ở nhà anh chị hay trên cả khu vực luôn vậy.",  
+    "action_ask_goodbye" : "Nếu quý khách chưa rõ, quý khách vui lòng kiểm tra lại thông tin dùm em. Nếu cần hỗ trợ quý khách vui lòng liên hệ tổng đài EVN. Chào tạm biệt quý khách", 
+    "action_check_power" : "Dạ vâng, anh chị vui lòng chờ trong giây lát để em kiểm tra lịch cắt điện tại khu vực của mình.", 
+    "action_ask_cus_name" : "Anh chị vui lòng cho biết họ và tên người sở hữu.", 
+
+    "action_yes_gb" : "Dạ em đã kiểm tra, thì khu vực của mình hiện tại đang có lịch cắt điện. Thời gian cấp điện trở lại là {time}. Mong anh chị thông cảm và chờ cho đến khi được cấp điện trở lại. Nếu còn cần hỗ trợ gì khác, anh chị vui lòng liên hệ tổng đài EVN. Chào tạm biệt anh chị.", 
+    "action_no_gb" : "Dạ vâng, em đã kiểm tra hiện khu vực của mình đang không có lịch cắt điện. Em sẽ cử người đến để kiểm tra lại tình trạng mất điện ở khu vực của mình. Rất xin lỗi quý khách điều này. Chào tạm biệt quý khách", 
+    "action_ask_address" : "Anh chị vui lòng cho biết địa chỉ của mình", 
+
+    "action_check_name" : "Dạ vâng, quý khách vui lòng đợi trong giây lát để em kiểm tra thông tin.", 
+    "action_yes" : "Dạ vâng, em đã ghi nhận tình trạng mất điện của anh chị và sẽ cử nhân viên đến xử lý cho mình sớm nhất có thể. Chào tạm biệt anh chị.",
+    "action_no" : "Xin lỗi anh chị, em tra cứu hệ thông thì không tìm thấy được thông tin đăng ký. Vậy nên em sẽ chuyển máy tới điện thoại viên để hỗ trợ anh chị. Anh chị vui lòng đợi trong giây lát để em kết nối."
+}
+
+ 

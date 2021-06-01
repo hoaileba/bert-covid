@@ -1,0 +1,277 @@
+{
+      "action_ask_province": [
+            {
+                  "status": "CHAT",
+                  "text": "28. Xin chào, đây là tổng đài tra cứu tiền điện. Xin hỏi quý khách thuộc tỉnh thành nào vậy?",
+                  "text_tts": "28. Xin chào, đây là tổng đài tra cứu tiền điện. Xin hỏi quý khách thuộc tỉnh thành nào vậy?"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "28. Kính chào quý Khách, đây là tổng đài tra cứu tiền điện. Cho em xin tên tỉnh thành hiện tại của qúy khách ạ",
+                  "text_tts": "28. Kính chào quý Khách, đây là tổng đài tra cứu tiền điện. Cho em xin tên tỉnh thành hiện tại của qúy khách ạ"
+            }
+      ],
+      "action_ask_province_again": [
+            {
+                  "status": "CHAT",
+                  "text": "29. Quý khách vui lòng đọc lại tên tỉnh thành chính xác giúp em",
+                  "text_tts": "29. Quý khách vui lòng đọc lại tên tỉnh thành chính xác giúp em"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "29. Xin lỗi Quý khách có thể đọc lại tên tỉnh thành giúp em với ạ.",
+                  "text_tts": "29. Xin lỗi Quý khách có thể đọc lại tên tỉnh thành giúp em với ạ."
+            }
+      ],
+      "action_sorry_call_sup": [
+            {
+                  "status": "CHAT",
+                  "text": "30. Xin lỗi em chưa rõ tỉnh thành. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ.",
+                  "text_tts": "30. Xin lỗi em chưa rõ tỉnh thành. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ."
+            },
+            {
+                  "status": "CHAT",
+                  "text": "30. Xin lỗi em vẫn không rõ tỉnh thành ạ. Cuộc gọi của mình đang được chuyển cho điện thoại viên hỗ trợ ạ, vui lòng đợi trong giây lát ",
+                  "text_tts": "30. Xin lỗi em vẫn không rõ tỉnh thành ạ. Cuộc gọi của mình đang được chuyển cho điện thoại viên hỗ trợ ạ, vui lòng đợi trong giây lát "
+            }
+      ],
+      "action_not_support": [
+            {
+                  "status": "CHAT",
+                  "text": "31. Rất xin lỗi, hiện tại điện lực chưa hỗ trợ tra cứu cho khách hàng thuộc tỉnh {province}. Tạm biệt quý khách.",
+                  "text_tts": "31. Rất xin lỗi, hiện tại điện lực chưa hỗ trợ tra cứu cho khách hàng thuộc tỉnh {province}. Tạm biệt quý khách."
+            }
+      ],
+      "action_ask_search_method": [
+            {
+                  "status": "CHAT",
+                  "text": "1. Đầu tiên, quý khách muốn tra cứu theo mã khách hàng, theo số điện thoại hay theo địa chỉ vậy?",
+                  "text_tts": "1. Đầu tiên, quý khách muốn tra cứu theo mã khách hàng, theo số điện thoại hay theo địa chỉ vậy?"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "1. Quý khách muốn tra cứu theo hình thức nào ạ, mã khách hàng, số điện thoại hay địa chỉ ạ",
+                  "text_tts": "1. Quý khách muốn tra cứu theo hình thức nào ạ, mã khách hàng, số điện thoại hay địa chỉ ạ"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "1.  Quý khách muốn tra cứu theo {method_1}, hay theo {method_2} ạ",
+                  "text_tts": "1.  Quý khách muốn tra cứu theo {method_1}, hay theo {method_2} ạ"
+            }
+      ],
+      "action_ask_method": [
+            {
+                  "status": "CHAT",
+                  "text": "Xin lỗi, bạn muốn tra cứu theo mã khách hàng theo số điện thoại hay theo địa chỉ vậy ạ ?",
+                  "text_tts": "Xin lỗi, bạn muốn tra cứu theo mã khách hàng theo số điện thoại hay theo địa chỉ vậy ạ ?"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "mình xin lỗi, bạn muốn tra theo mã khách hàng hay số điện thoại hay địa chỉ ạ",
+                  "text_tts": "mình xin lỗi, bạn muốn tra theo mã khách hàng hay số điện thoại hay địa chỉ ạ"
+            }
+      ],
+      "action_ask_address_contract": [
+            {
+                  "status": "CHAT",
+                  "text": "6. Quý khách vui lòng đọc địa chỉ trên hợp đồng điện giúp em",
+                  "text_tts": "6. Quý khách vui lòng đọc địa chỉ trên hợp đồng điện giúp em"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "6. Quý khách có thể đọc địa chỉ trên hợp đồng không ạ",
+                  "text_tts": "6. Quý khách có thể đọc địa chỉ trên hợp đồng không ạ"
+            }
+      ],
+      "action_ask_ID": [
+            {
+                  "status": "CHAT",
+                  "text": "12. Quý khách vui lòng đọc mã khách hàng để em tra cứu",
+                  "text_tts": "12. Quý khách vui lòng đọc mã khách hàng để em tra cứu"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "12.Quý khách vui lòng cho em xin thông tin về mã khách hàng là gì ạ",
+                  "text_tts": "12.Quý khách vui lòng cho em xin thông tin về mã khách hàng là gì ạ"
+            }
+      ],
+      "action_ask_number": [
+            {
+                  "status": "CHAT",
+                  "text": "23. Quý khách vui lòng đọc số điện thoại trên hợp đồng điện để em tra cứu",
+                  "text_tts": "23. Quý khách vui lòng đọc số điện thoại trên hợp đồng điện để em tra cứu"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "23. Cho phép em xin số điện thoại của quý khách ạ ",
+                  "text_tts": "23. Cho phép em xin số điện thoại của quý khách ạ "
+            }
+      ],
+      "action_confirm_number": [
+            {
+                  "status": "CHAT",
+                  "text": "24. Em xin xác nhận số điện thoại {phone_number} có phải không",
+                  "text_tts": "24. Em xin xác nhận số điện thoại {phone_number} có phải không"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "24. Em xin xác nhận số điện thoại của mình có phải là {phone_number} không ạ",
+                  "text_tts": "24. Em xin xác nhận số điện thoại của mình có phải là {phone_number} không ạ"
+            }
+      ],
+      "action_ask_number_again": [
+            {
+                  "status": "CHAT",
+                  "text": "25. Vậy quý khách đọc lại số điện thoại trên hợp đồng điện giúp em",
+                  "text_tts": "25. Vậy quý khách đọc lại số điện thoại trên hợp đồng điện giúp em"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "25. Vậy quý khách vui lòng cấp lại số điện thoại trên hợp đồng giúp em với ạ",
+                  "text_tts": "25. Vậy quý khách vui lòng cấp lại số điện thoại trên hợp đồng giúp em với ạ"
+            }
+      ],
+      "action_please_wait": [
+            {
+                  "status": "CHAT",
+                  "text": "Hệ thống đang thực hiện tra cứu, quý khách vui lòng đợi giấy lát",
+                  "text_tts": "Hệ thống đang thực hiện tra cứu, quý khách vui lòng đợi giấy lát"
+            }
+      ],
+      "action_confirm_number_again": [
+            {
+                  "status": "CHAT",
+                  "text": "26. Em xin xác nhận số điện thoại {phone_number} có phải không",
+                  "text_tts": "26. Em xin xác nhận số điện thoại {phone_number} có phải không"
+            },
+            {
+                  "status": "CHAT",
+                  "text": "26. Em xin xác nhận lại số điện thoại của mình là {phone_number} phải không ạ",
+                  "text_tts": "26. Em xin xác nhận lại số điện thoại của mình là {phone_number} phải không ạ"
+            }
+      ],
+      "action_seach_again": [
+            {
+                  "status": "CHAT",
+                  "text": "Dạ rất tiếc là em chưa rõ yêu cầu của quý khách. Quý khách có muốn tra cứu lại theo {method_1}, hay theo {method_2} không ạ.",
+                  "text_tts": "Dạ rất tiếc là em chưa rõ yêu cầu của quý khách. Quý khách có muốn tra cứu lại theo {method_1}, hay theo {method_2} không ạ."
+            },
+            {
+                  "status": "CHAT",
+                  "text": "Dạ em xin lỗi, em chưa chưa rõ yêu cầu của quý khách. Mình có muốn tra cứu lại bằng {method_1} hoặc theo {method_2} không ạ",
+                  "text_tts": "Dạ em xin lỗi, em chưa chưa rõ yêu cầu của quý khách. Mình có muốn tra cứu lại bằng {method_1} hoặc theo {method_2} không ạ"
+            }
+      ],
+      "action_confirm_ID": [
+            {
+                  "status": "CHAT",
+                  "text": "13. Em xin xác nhận mã khách hàng {code} phải không vậy",
+                  "text_tts": "13. Em xin xác nhận mã khách hàng {code} phải không vậy"
+            }
+      ],
+      "action_ask_ID_again": [
+            {
+                  "status": "CHAT",
+                  "text": "14. Vậy quý khách đọc lại mã khách hàng chính xác giúp em",
+                  "text_tts": "14. Vậy quý khách đọc lại mã khách hàng chính xác giúp em"
+            }
+      ],
+      "action_confirm_ID_again": [
+            {
+                  "status": "CHAT",
+                  "text": "15. Em xin xác nhận mã khách hàng {code} phải không vậy",
+                  "text_tts": "15. Em xin xác nhận mã khách hàng {code} phải không vậy"
+            }
+      ],
+      "action_confirm_address": [
+            {
+                  "status": "CHAT",
+                  "text": "8. Em xin xác nhận địa chỉ {address} đúng không vậy",
+                  "text_tts": "8. Em xin xác nhận địa chỉ {address} đúng không vậy"
+            }
+      ],
+      "action_confirm_address_again": [
+            {
+                  "status": "CHAT",
+                  "text": "10. Em xin xác nhận địa chỉ {address} đúng không vậy",
+                  "text_tts": "10. Em xin xác nhận địa chỉ {address} đúng không vậy"
+            }
+      ],
+      "action_ask_name": [
+            {
+                  "status": "CHAT",
+                  "text": "2. Quý khách vui lòng đọc họ tên đầy đủ trên hợp đồng điện",
+                  "text_tts": "2. Quý khách vui lòng đọc họ tên đầy đủ trên hợp đồng điện"
+            }
+      ],
+      "action_ask_address_again": [
+            {
+                  "status": "CHAT",
+                  "text": "9. Vậy quý khách đọc lại địa chỉ trên hợp đồng điện giúp em",
+                  "text_tts": "9. Vậy quý khách đọc lại địa chỉ trên hợp đồng điện giúp em"
+            }
+      ],
+      "action_confirm_name": [
+            {
+                  "status": "CHAT",
+                  "text": "3. Em xin xác nhận tên quý khách là {name} phải không vậy",
+                  "text_tts": "3. Em xin xác nhận tên quý khách là {name} phải không vậy"
+            }
+      ],
+      "action_ask_name_again": [
+            {
+                  "status": "CHAT",
+                  "text": "4. Vậy quý khách đọc lại họ tên trên hợp đồng điện chính xác giúp em",
+                  "text_tts": "4. Vậy quý khách đọc lại họ tên trên hợp đồng điện chính xác giúp em"
+            }
+      ],
+      "action_confirm_name_again": [
+            {
+                  "status": "CHAT",
+                  "text": "5. Em xin xác nhận tên quý khách là {name} phải không vậy",
+                  "text_tts": "5. Em xin xác nhận tên quý khách là {name} phải không vậy"
+            }
+      ],
+      "action_sorry_call_sup_27": [
+            {
+                  "status": "CHAT",
+                  "text": "27. Xin lỗi em chưa rõ thông tin của quý khách. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ.",
+                  "text_tts": "27. Xin lỗi em chưa rõ thông tin của quý khách. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ."
+            }
+      ],
+      "action_sorry_17": [
+            {
+                  "status": "CHAT",
+                  "text": "17. Rất tiếc hiện tại chưa có thông tin tiền điện. Điện lực sẽ kiểm tra và phản hồi lại sau một ngày làm việc.",
+                  "text_tts": "17. Rất tiếc hiện tại chưa có thông tin tiền điện. Điện lực sẽ kiểm tra và phản hồi lại sau một ngày làm việc."
+            }
+      ],
+      "action_sorry_18": [
+            {
+                  "status": "CHAT",
+                  "text": "18. Rất tiếc hiện tại vẫn chưa đến ngày phát hành hóa đơn, quý khách vui lòng gọi lại sau.",
+                  "text_tts": "18. Rất tiếc hiện tại vẫn chưa đến ngày phát hành hóa đơn, quý khách vui lòng gọi lại sau."
+            }
+      ],
+      "action_sorry_20": [
+            {
+                  "status": "CHAT",
+                  "text": "20. Em rất tiếc không tìm thấy thông tin tiền điện của quý khách. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ.",
+                  "text_tts": "20. Em rất tiếc không tìm thấy thông tin tiền điện của quý khách. Vui lòng chờ giây lát, cuộc gọi đang được chuyển cho điện thoại viên hỗ trợ."
+            }
+      ],
+      "action_respone_19": [
+            {
+                  "status": "CHAT",
+                  "text": "19. Em xin thông báo, tiền điện của quý khách trong tháng {month} năm {year} là {cost} đồng.",
+                  "text_tts": "19. Em xin thông báo, tiền điện của quý khách trong tháng {month} năm {year} là {cost} đồng."
+            }
+      ],
+      "action_fallback_22": [
+            {
+                  "status": "CHAT",
+                  "text": "Xin lỗi em chưa rõ, vui lòng chờ trong giây lát, cuộc gọi đang được chuyển hướng đến điện thoại viên",
+                  "text_tts": "Xin lỗi em chưa rõ, vui lòng chờ trong giây lát, cuộc gọi đang được chuyển hướng đến điện thoại viên"
+            }
+      ]
+}

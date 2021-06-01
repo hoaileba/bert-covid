@@ -1,0 +1,120 @@
+<html>
+    <head>
+     
+        <style>
+        h1{
+            color:#ffffff
+        }
+        a{
+            color: #ffffff
+        }
+        textarea {
+            display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 400px;
+         -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none; 
+        background: rgba(245, 241, 241, 0.897) ;
+        border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color; */
+         border-image: none;
+        border-radius: 6px 6px 6px 6px;
+        border-style: none solid solid none;
+        border-width: medium 1px 1px medium;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset; 
+        color: #000000;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 1em;
+        line-height: 1.4em;
+        padding: 5px 8px;
+        /*opacity: 0.01; */
+        /* transition: background-color 0.2s ease 0s; */
+        }
+            body {
+            background-image: url({{ url_for('static', filename='background/home.jpg') }});
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+        input{
+    /* position: fixed; */
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+    width: 80%;
+    height: 50px;
+    z-index: 99;
+    background: #fafafa;
+    border: none;
+    outline: none;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #666;
+    font-weight: 400;
+}
+        </style>
+        <title>Flask-SocketIO-Chat </title>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            var socket;
+            var id = 0;
+            $(document).ready(function(){
+                console.log(location.port)
+                socket = io.connect('http://' + document.domain + ':' + "6000" + '/chat');
+                socket.on('connect', function() {
+                    socket.emit('initDialogue', {});
+                });
+                socket.on('status', function(data) {
+                    id = data.conversation_id
+                    console.log(id)
+                    $('#chat').val($('#chat').val() + '<' + 'welcome' + '>\n');
+                    $('#chat').scrollTop($('#chat')[0].scrollHeight);
+                });
+                    
+                
+                socket.on('message', function(data) {
+                    $('#chat').val($('#chat').val() + data.msg + '\n');
+                    $('#chat').scrollTop($('#chat')[0].scrollHeight);
+                });
+                $('#text').keypress(function(e) {
+                    var code = e.keyCode || e.which;
+                    if (code == 13) {
+                        text = $('#text').val();
+                        $('#text').val('');
+                      
+                        
+                        socket.emit('text',{msg: text,'conversation_id' : id});
+                        socket.emit('Bot',{msg:text, 'conversation_id': id});
+                       
+                    }
+                    
+                    
+                });
+                
+                
+            });
+            function start_room() {
+                socket.emit('initDialogue', {}, function() {
+
+                    window.location.href = "{{ url_for('.chat') }}";
+
+                    // go back to the login page
+                    
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <h1>CHATBOT LEAGUE OF LEGEND</h1>
+        
+        <textarea readonly name="comment[text]" id="chat" cols="80" rows="20" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea><br><br>
+        <input id="text" size="80" placeholder="Enter your message here"><br><br>
+        <a href="#" onclick="start_room();">tạo mới hội thoai</a>
+    </body>
+</html>

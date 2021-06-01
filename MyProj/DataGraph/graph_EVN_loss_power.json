@@ -1,0 +1,33 @@
+{"action_Start\tbegin": "action_ask_distric_name", 
+    "action_ask_distric_name\tfallback": "action_ask_distric_name",
+    "action_ask_distric_name\tfallback_1": "action_sorry", 
+    "action_ask_distric_name\tintent_cant_hear": "action_ask_distric_name", 
+    "action_ask_distric_name\tintent_cant_hear_1": "action_sorry", 
+    "action_ask_distric_name\tintent_provide_address": "action_ask_homeORfield", 
+
+    "action_ask_homeORfield\tfallback": "action_ask_home_area", 
+    "action_ask_homeORfield\tfallback_1": "action_sorry", 
+    "action_ask_homeORfield\tintent_cant_hear": "action_ask_homeORfield", 
+    "action_ask_homeORfield\tintent_cant_hear_1": "action_sorry", 
+    "action_ask_homeORfield\tintent_dont_clear": "action_ask_goodbye", 
+    "action_ask_homeORfield\tintent_all_field": "action_check_power", 
+    "action_ask_homeORfield\tintent_only_home": "action_ask_cus_name", 
+
+    "action_check_power\tcheck_yes": "action_yes_gb", 
+    "action_check_power\tcheck_no": "action_no_gb", 
+
+    "action_ask_cus_name\tintent_provide_name": "action_ask_address", 
+    "action_ask_cus_name\tfallback": "action_ask_cus_name", 
+    "action_ask_cus_name\tfallback_1": "action_sorry", 
+    "action_ask_cus_name\tintent_cant_hear": "action_ask_cus_name", 
+    "action_ask_cus_name\tintent_cant_hear_1": "action_sorry", 
+
+    "action_ask_address\tintent_provide_address": "action_check_name", 
+
+    "action_check_name\tcheck_yes": "action_yes",
+    "action_check_name\tcheck_no": "action_no",
+
+    "action_ask_address\tfallback": "action_ask_address", 
+    "action_ask_address\tfallback_1": "action_sorry", 
+    "action_ask_address\tintent_cant_hear": "action_ask_address", 
+    "action_ask_address\tintent_cant_hear_1": "action_sorry"}
