@@ -1,0 +1,12 @@
+{   
+    "action_ask_begin":["action_ask_begin"],
+    "action_provide_info_covid":["intent_ask_covid"],
+    "action_provide_situation":["intent_ask_situation"],
+    "action_provide_symptom":["intent_ask_symptom"],
+    "action_provide_prevent":["intent_ask_prevent"],
+    "action_suggest":["tintent_ask_covid"]
+    
+   
+}
+
+ 

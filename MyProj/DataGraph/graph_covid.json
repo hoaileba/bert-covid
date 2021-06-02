@@ -1,0 +1,10 @@
+{
+    "action_start\tbegin": "action_ask_begin", 
+    "action_ask_begin\tfallback": "action_ask_begin",
+    "action_ask_begin\tintent_ask_covid": "action_provide_info_covid", 
+    "action_ask_begin\tintent_situation": "action_provide_situation", 
+    "action_ask_begin\tintent_ask_symptom": "action_provide_symptom",
+    "action_ask_begin\tintent_ask_prevent": "action_provide_prevent",
+    "action_ask_begin\tintent_provide_symptom" : "action_suggest"
+
+}

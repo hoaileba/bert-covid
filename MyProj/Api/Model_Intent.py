@@ -74,7 +74,7 @@ class Model_Cls:
 
 
 
-    def create_model(self,path_bert = 'vinai/phobert-base', num_class = 8, MAX_LEN = 20):
+    def create_model(self,path_bert = 'vinai/phobert-base', num_class = 5, MAX_LEN = 20):
 
         phobert = TFAutoModel.from_pretrained(path_bert)
         ids = tf.keras.layers.Input(shape=(MAX_LEN), dtype=tf.int32)
@@ -104,7 +104,7 @@ class Model_Cls:
     
     
     def get_predict(self,sent):
-        trans ={0: 'cant_hear', 1:'intent_affirm',2: 'intent_deny_confirm', 3:'intent_number_phone',4:'provide_address',5: 'provide_code_customer', 6: 'provide_name', 7: 'this_phone', 8 :'fallback'}
+        trans ={0: 'intent_ask_covid', 1:'intent_ask_prevent',2: 'intent_ask_symptom', 3:'intent_provide_symptom',4:'intent_situation'}
         Raw = self.pre_processing(sent)
         X_test , X_test_mask = self.encoding(Raw)
 

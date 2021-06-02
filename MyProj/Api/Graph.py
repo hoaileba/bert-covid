@@ -2,10 +2,10 @@
 import json
 import random
 from random import randint
-path_graph = '/MyProj/DataGraph/graph.json'
+path_graph = 'MyProj/DataGraph/graph_covid.json'
 
 class Graph:
-    def __init__(self,path_action = '/home/hoaileba/PythonFlask/nlp-chatbot/MyProj/DataGraph/graph.txt'):
+    def __init__(self,path_action = 'MyProj/DataGraph/graph.txt'):
         self.connection = {}
         self.action_text = {}
         self.checked_action = {}
@@ -13,6 +13,7 @@ class Graph:
         for action in f:
             action = action.split("\n")[0]
             self.checked_action[action] = 0
+        print(self.checked_action)
         f.close()
 
     def load_check_action(self,gr):
@@ -85,6 +86,7 @@ class Graph:
             intent = id.split('\t')[1]
             target_action = data[id]
             self.connection[(start_action,intent)] = target_action
+        print(self.connection)
 
     def load_text(self,path):
         with open(path,'r') as f:
